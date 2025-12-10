@@ -12,8 +12,15 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+//hat
+fill(103, 168, 141);
+ellipse(197,40,20,20);
 
-  
+//face
+fill(255, 178, 122);
+triangle(196,51,136,120,260,120);
+
+
 
 }
 
