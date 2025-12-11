@@ -13,14 +13,27 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
 //hat
-fill(103, 168, 141);
+fill(128, 168, 152);
 ellipse(197,40,20,20);
 
 //face
 fill(255, 178, 122);
-triangle(196,51,136,120,260,120);
+noStroke()
+triangle(197,50,122,130,270,130);
+stroke(0,0,0);
+strokeWeight(2);
+line(197,51,123,130);
+line(197,51,269,130);
+arc(196, 130, 149, 49, 0, PI);
 
+//legs
+fill(128, 168, 152);
+rect(212,265,20,80);
+rect(167,250,20,80);
 
+//body
+fill(250, 226, 117);
+ellipse(197,215,120,120);
 
 }
 
