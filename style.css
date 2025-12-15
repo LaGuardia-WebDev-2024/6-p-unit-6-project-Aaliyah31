@@ -19,7 +19,7 @@ html{
 
 #myCanvas {
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double rgb(174, 18, 18);
 }
 
 .container{
@@ -30,6 +30,7 @@ html{
   align-items: flex-start;
   padding-bottom: 60px;
   border-radius: 30px;
+  border: 15px double #1c46ce;
 }
 
 .pic{
@@ -37,11 +38,11 @@ html{
   width: 400px;
   object-fit: cover;
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double #d482d6;
 }
 
 h2{
-  color: black;
+  color: rgb(197, 79, 79);
 }
 
 #start{
