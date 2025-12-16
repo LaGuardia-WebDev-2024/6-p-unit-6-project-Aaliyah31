@@ -18,7 +18,7 @@ ellipse(197,40,20,20);
 
 //face
 fill(255, 178, 122);
-noStroke()
+noStroke();
 triangle(197,50,122,130,270,130);
 stroke(0,0,0);
 strokeWeight(2);
@@ -43,8 +43,35 @@ ellipse(197,215,120,120);
 
 //Feat
 fill(232, 116, 93);
-rect(150,330, 30, 49 );
-rect(210,330,30,49);
+//rect(150,330, 30, 49 );
+
+beginShape()
+vertex(210,330);
+vertex(240,330);
+vertex(240,360);
+vertex(280,360);
+vertex(280,380)
+vertex(240,380);
+vertex(210,380);
+vertex(210,330);
+endShape()
+
+beginShape()
+vertex(115,361);
+vertex(150,361);
+vertex(150,333);
+vertex(176,333);
+vertex(176,379);
+vertex(115,379);
+vertex(115,361);
+endShape()
+
+//rect(210,330,30,49);
+
+fill(255, 255, 255)
+arc(246, 382, 70, 10, 0, PI);
+arc(140, 382, 66, 10, 0, PI);
+
 
 }
 
