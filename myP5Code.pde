@@ -48,20 +48,20 @@ fill(232, 116, 93);
 beginShape()
 vertex(210,330);
 vertex(240,330);
-vertex(240,360);
-vertex(280,360);
-vertex(280,380)
+vertex(240,358);
+vertex(275,358);
+vertex(275,380);
 vertex(240,380);
 vertex(210,380);
 vertex(210,330);
 endShape()
 
 beginShape()
-vertex(115,361);
-vertex(150,361);
+vertex(115,358);
+vertex(150,358);
 vertex(150,333);
-vertex(176,333);
-vertex(176,379);
+vertex(180,333);
+vertex(180,379);
 vertex(115,379);
 vertex(115,361);
 endShape()
@@ -69,10 +69,30 @@ endShape()
 //rect(210,330,30,49);
 
 fill(255, 255, 255)
-arc(246, 382, 70, 10, 0, PI);
-arc(140, 382, 66, 10, 0, PI);
+arc(242, 382, 64, 10, 0, PI);
+arc(148, 381, 64, 10, 0, PI);
 
+//face
+fill(255, 178, 122)
+arc(182, 100, 12, 9, radians(180), radians(360));
+arc(210, 100, 12, 9, radians(180), radians(360));
 
+rotate(.25)
+arc(220, 86, 18, 6, 0, PI);
+rotate(-.25)
+
+fill()
+arc(182, 127, 16, 45, radians(180), radians(360));
+arc(210, 127, 16, 45, radians(180), radians(360));
+line(175,127,189,127);
+line(203,127,217,127);
+fill(0, 0, 0);
+triangle(178,108,175,127,184,127);
+triangle(205,108,203,127,212,127);
+
+line(285,90,285,98)
+line(281,94,289,94)
+line(316,176,316,203)
 }
 
 //🟡Extra FUN Features Ms. Hall Added
