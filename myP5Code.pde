@@ -28,7 +28,6 @@ arc(196, 130, 149, 49, 0, PI);
 
 //legs
 fill(128, 168, 152);
-
 rotate(-.05)
 rect(198,265,20,100);
 rotate(.05)
@@ -40,6 +39,7 @@ rotate(-.25)
 //body
 fill(250, 226, 117);
 ellipse(197,215,120,120);
+
 
 //Feat
 fill(232, 116, 93);
@@ -56,7 +56,7 @@ vertex(210,380);
 vertex(210,330);
 endShape()
 
-beginShape()
+beginShape();
 vertex(115,358);
 vertex(150,358);
 vertex(150,333);
@@ -64,7 +64,7 @@ vertex(180,333);
 vertex(180,379);
 vertex(115,379);
 vertex(115,361);
-endShape()
+endShape();
 
 //rect(210,330,30,49);
 
@@ -73,13 +73,13 @@ arc(242, 382, 64, 10, 0, PI);
 arc(148, 381, 64, 10, 0, PI);
 
 //face
-fill(255, 178, 122)
+fill(255, 178, 122);
 arc(182, 100, 12, 9, radians(180), radians(360));
 arc(210, 100, 12, 9, radians(180), radians(360));
 
-rotate(.25)
+rotate(.25);
 arc(220, 86, 18, 6, 0, PI);
-rotate(-.25)
+rotate(-.25);
 
 fill()
 arc(182, 127, 16, 45, radians(180), radians(360));
@@ -90,10 +90,34 @@ fill(0, 0, 0);
 triangle(178,108,175,127,184,127);
 triangle(205,108,203,127,212,127);
 
-line(285,90,285,98)
-line(281,94,289,94)
-line(316,176,316,203)
+//stars
+line(285,90,285,98);
+line(281,94,289,94);
+strokeWeight(2.5);
+line(316,172,316,206);
+line(299,190,330,190);
+line(307,198,324,183);
+line(324,198,307,183);
+strokeWeight(3.2);
+line(91,147,91,173);
+line(81,152,102,165);
+line(102,152,81,165);
+strokeWeight(2)
+fill(250, 250, 250);
+ellipse(74,185,7,7);
+
+//arms
+fill(250, 226, 117)
+rotate(-.1)
+arc(168, 210, 85, 58, 0, PI);
+rotate(.10)
+
+rotate(1.2);
+arc(300,-120, 20, 5, 0, PI);
+rotate(1.2)
 }
+
+
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
